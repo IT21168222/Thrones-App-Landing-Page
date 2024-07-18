@@ -1,0 +1,123 @@
+.container {
+  background-color: #121212;
+  color: #e0e0e0;
+  min-height: 100vh;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #bb86fc;
+}
+
+.header nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #bb86fc;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: #ffffff;
+}
+
+.main {
+  padding: 4rem 0;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.hero {
+  margin: 2rem 0;
+}
+
+.hero h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #bb86fc;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: #121212;
+  background-color: #bb86fc;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.ctaButton:hover {
+  background-color: #ffffff;
+}
+
+.features {
+  margin: 4rem 0;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.featureItem {
+  padding: 2rem;
+  border: 1px solid #bb86fc;
+  border-radius: 10px;
+  text-align: left;
+  background-color: #1f1f1f;
+}
+
+.screenshots {
+  margin: 4rem 0;
+}
+
+.screenshotGrid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.download {
+  margin: 4rem 0;
+}
+
+.footer {
+  padding: 2rem 0;
+  border-top: 1px solid #bb86fc;
+  text-align: center;
+  width: 100%;
+}
+
+.lineAfter{
+  padding-bottom: 55px;
+  border-bottom: 1px solid #bb86fc;
+}
+
+.space{
+  margin-right: 15px;
+}
